@@ -14,12 +14,10 @@ import java.util.Optional;
 
 public class Program {
     public static void main(String[] args) {
-        try {
-            // Create DataSource (connection to database)
-            HikariDataSource dataSource = new HikariDataSource();
+        try (HikariDataSource dataSource = new HikariDataSource();) {
             dataSource.setJdbcUrl("jdbc:postgresql://localhost:5432/chat_db");
-            dataSource.setUsername("postgres");  // Change this
-            dataSource.setPassword("");  // Change this
+            dataSource.setUsername("postgres"); 
+            dataSource.setPassword(""); 
             
 			MessagesRepository repository = new MessagesRepositoryJdbcImpl(dataSource);
 			
