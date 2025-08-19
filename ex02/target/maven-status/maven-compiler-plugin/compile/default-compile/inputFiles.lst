@@ -1,0 +1,7 @@
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/app/Program.java
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/models/Chatroom.java
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/models/Message.java
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/models/User.java
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/repositories/MessagesRepository.java
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/repositories/MessagesRepositoryJdbcImpl.java
+/home/void_id/Desktop/Java_Modules/Java_Module_05/ex02/src/main/java/fr/school42/chat/repositories/NotSavedSubEntityException.java
